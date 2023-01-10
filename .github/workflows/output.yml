@@ -1,7 +1,7 @@
 name: Output Issues
 on:
   issues:
-    types: [opened]
+    types: opened
 jobs:
   info:
     runs-on: ubuntu-latest
